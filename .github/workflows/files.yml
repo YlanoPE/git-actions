@@ -1,0 +1,18 @@
+name: "file"
+
+on:
+  workflow_dispached:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: make dir
+        run: mkdir /textdir
+
+      - name: text bestand
+        run: echo "Hello-world" > /textdir/text.txt
+
+      - name: text zien
+        run: cat /textdir/text.txt
