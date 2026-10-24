@@ -8,7 +8,7 @@ jobs:
     steps:
       - run: mkdir testmahine
       - run: uname -a > testmachine/output.txt
-      - run: cat ./testmachine/output.txt
+      - run: cat testmachine/output.txt
       - run: ls -alhR
       
       
