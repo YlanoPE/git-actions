@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Chekout
-        run: actions/checkout@v7
+      - name: Chekout Repo
+        run: actions/checkout@v7.0.1
 
       - name: Install Python 3.13
         uses: actions/setup-python@v5
