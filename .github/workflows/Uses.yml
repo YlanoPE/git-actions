@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Chekout Repo
-        run: actions/checkout@v7.0.1
+        uses: actions/checkout@v7.0.1
 
       - name: Install Python 3.13
         uses: actions/setup-python@v5
