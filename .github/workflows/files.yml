@@ -9,10 +9,10 @@ jobs:
 
     steps:
       - name: make dir
-        run: mkdir /textdir
+        run: mkdir textdir
 
       - name: text bestand
-        run: echo "Hello-world" > /textdir/text.txt
+        run: echo "Hello-world" > textdir/text.txt
 
       - name: text zien
-        run: cat /textdir/text.txt
+        run: cat textdir/text.txt
